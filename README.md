@@ -1,15 +1,13 @@
-# http-homebrew
+# ASCII Generator
 
-To install dependencies:
+Project meant to be a first contact with [Bun](https://bun.sh), a new all-in-one JavaScript runtime.
 
-```bash
-bun install
-```
+Simple web page which takes a searchParams in the url, for example:
+`localhost:3000/text=HelloWorld`
 
-To run:
+And generates an ascii art using the [Figlet](https://www.npmjs.com/package/figlet) npm package.
 
-```bash
-bun run index.ts
-```
 
-This project was created using `bun init` in bun v1.1.1. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+
+
+This project was created using `bun init` in bun v1.1.1.  is a fast all-in-one JavaScript runtime.
